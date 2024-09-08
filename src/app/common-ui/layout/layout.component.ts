@@ -14,7 +14,7 @@ export class LayoutComponent {
   constructor(private readonly profileService: ProfileService) { }
   ngOnInit() {
     this.profileService.getMe().subscribe(val => console.log(val))
-    
 
+    
   }
 }
